@@ -14,4 +14,13 @@ android_app {
     privileged: true,
     certificate: "platform",
 
+    required: ["privapp_whitelist_io.cjybyjk.statuslyricext.xml"],
+
+}
+
+    prebuilt_etc {
+    name: "privapp_whitelist_io.cjybyjk.statuslyricext.xml",
+    src: "privapp_whitelist_io.cjybyjk.statuslyricext.xml",
+    sub_dir: "permissions",
+
 }
